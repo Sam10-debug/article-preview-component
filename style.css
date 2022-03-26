@@ -127,10 +127,10 @@ h1 {
   align-items: center;
   gap: 0.9rem;
 }
-.icons svg:hover path{
+.icons svg:hover path {
   fill: paleturquoise;
 }
-@media screen and (min-width:900px){
+@media screen and (min-width: 900px) {
   .card {
     display: grid;
     width: 750px;
@@ -139,24 +139,24 @@ h1 {
     grid-template-rows: 1fr;
     overflow: visible;
   }
-  .imgwrap{
+  .imgwrap {
     flex-grow: 0.3;
     height: 100%;
     overflow: hidden;
     border-radius: 0.5rem 0 0 0.5rem;
   }
-  .imgwrap img{
+  .imgwrap img {
     height: 100%;
     object-fit: cover;
   }
-  .textwrap{
+  .textwrap {
     flex-grow: 0.7;
     padding: 2rem;
   }
-  h1{
+  h1 {
     font-size: 1.28rem;
   }
-  .sharewrap{
+  .sharewrap {
     position: relative;
   }
   .tooltip {
@@ -183,7 +183,7 @@ h1 {
     opacity: 0;
     pointer-events: none;
   }
-  .tooltip::before{
+  .tooltip::before {
     content: "";
     box-sizing: content-box;
     width: 0;
@@ -193,9 +193,9 @@ h1 {
     border-top: 10px solid hsl(217, 19%, 35%);
     position: absolute;
     left: 50%;
-    transform: translate(-50%,95%);
+    transform: translate(-50%, 95%);
   }
-  .tooltip.active{
+  .tooltip.active {
     opacity: 1;
     pointer-events: initial;
     bottom: unset;
@@ -205,10 +205,10 @@ h1 {
     max-height: 150px;
     border-radius: 6px;
   }
-  .icons{
+  .icons {
     height: fit-content;
   }
-  .icons svg path{
+  .icons svg path {
     transition: fill ease-in-out 0.25s;
   }
 }
